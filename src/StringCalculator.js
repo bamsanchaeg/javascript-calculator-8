@@ -1,6 +1,6 @@
 export default class StringCalculator {
   static add(input) {
-    if (!input) {
+    if (input === null || input === undefined) {
       return 0;
     }
 
